@@ -6,7 +6,7 @@ Use the NeuroLux Bluetooth Installer.msi file for the NeuroLux software installa
 
 
 ### Pairing:
-Search for devices, select ‘connect’ to pair with EEG###, IMA###, MA###. Select ‘start data stream’ to begin viewing data.
+Search for devices, select ‘connect’ to pair with NNV###, EEG###, IMA###, MA###. Select ‘start data stream’ to begin viewing data.
 
 ### Data saving:
 ‘Begin recording’ will save to a SQLite database. Date in name of file will update on pressing begin ‘Begin recording’.‘New savefile every X sec’ sets how often a new csv (incrementally numbered) is created on export at end of session. At end of recording, click single database export to select a SQLite file to export to csv. Click batch export databases to select a parent folder in which to recursively export data from all databases found in tree. A new db is created each time start recording is pressed and for each unique device. Databases can be viewed in a SQLite viewer and manipulated as is. Note that the database needs to be sorted by time when queried, as it is not in order when saved initially. 
