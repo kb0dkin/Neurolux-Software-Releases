@@ -15,7 +15,7 @@ Search for devices, select ‘connect’ to pair with NNV###, EEG###, IMA###, MA
 Devices will be assigned a local event keyboard shortcut on connect, this shortcut can also be assigned by the user. A global event binding is also able to be assigned.
 
 ### Arduino Connection
-An Arduino can be used to mark events and start/stop recording over serial communication. Connect to Arduinos by selecting the com port corresponding to the Arduino in the 'Serial Ports' drop down menu and selecting connect. By sending a 'g' over serial, a global event will be marked. Sending an 'r' will toggle starting and stopping recording data.
+An Arduino can be used to mark events and start/stop recording over serial communication. Connect to Arduinos by selecting the com port corresponding to the Arduino in the 'Serial Ports' drop down menu and selecting connect. By sending a 'g' over serial, a global event will be marked. Sending an 'r' will toggle starting and stopping recording data. Baud rate should be set to 9600.
 
 ### Plot Navigation
 Shift + left click on plot = X axis zoom
